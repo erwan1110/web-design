@@ -44,11 +44,15 @@ body {
 .media {
     padding: 150px 0px;
     .mediaItem  {
+        width: 33.3333333%;
         img {
-            img {
                 width: 100%;
             }
+        .imageWrap {
+            background-size: cover !important;
+            background-position: center center !important;
+            width: 100%;
+            height: 300px;
+        }
             }
         }
-    }
-}
