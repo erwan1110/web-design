@@ -1,3 +1,54 @@
 body {
-    background-color:;
+    margin: 0;    
+}
+
+.container  {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav_menu  {
+    padding: 30px 0px;
+}
+
+.ListMenu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+
+.ListMenu a:hover {
+    background-color: darkblue;
+}
+
+.banner {
+    background: blue;
+}
+
+.bannerWrapper  {
+    padding: 150px 0px;
+    color: white;
+    text-align: center;
+}
+
+.media {
+    padding: 150px 0px;
+    .mediaItem  {
+        img {
+            img {
+                width: 100%;
+            }
+            }
+        }
+    }
 }
